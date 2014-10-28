@@ -806,7 +806,7 @@ module ActiveRecord
       # Example:
       #   drop_database 'matt_development'
       def drop_database(name) #:nodoc:
-        execute "DROP DATABASE IF EXISTS #{quote_table_name(name)}"
+        execute "DROP DATABASE #{quote_table_name(name)}"
       end
 
       # Returns the list of all tables in the schema search path or a specified schema.
