@@ -50,6 +50,16 @@ redshift_development:
 
 https://github.com/fiksu/partitioned
 
+## You can call vaccum & analyse
+```ruby
+class Model < ActiveRecord::Base
+end
+
+Model.analyze_redshift_table
+Model.vacuum_redshift_table
+
+```
+
 ## TableManager
 
 Helpful code to clone redshift tables
