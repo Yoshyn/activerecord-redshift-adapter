@@ -1,7 +1,7 @@
 # This gem seem to be not suported by the initial developer.
 # Notice that master branch was created to made a pull request for a minor bug and does not have real benefit.
 
-# I you want imporvement, maybe you will find some code that interest you in develop branch.
+# I you want improvement, maybe you will find some code that interest you in develop branch.
 
 
 # activerecord-redshift-adapter
